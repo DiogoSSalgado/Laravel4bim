@@ -66,7 +66,8 @@
     </div>
     <div class="bg-red-400 text-white">
         <p>{{$avisoUserMessage}}</p>
+        
     </div>
-    <button type="button" class="bg-secondary rounded-lg p-2 text-white" wire:click="avisoUser()">Enviar Mensagem</button>
+   
 </div>
-{{var_export($avisoId)}}
+<button type="button" class="bg-secondary rounded-lg p-2 text-white" wire:click="avisoUser()">Enviar Mensagem</button>
